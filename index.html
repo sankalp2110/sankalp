@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="index.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<style>
+    body{
+        background-color: white
+    }
+    @media only screen and (max-width: 900px){
+        body{
+            background-color: lightblue;
+        }
+    } 
+    .top_nav {
+  padding: 20px;
+  color: white;  
+}
+@media only screen and (max-width: 600px) {
+ body {
+   background-color: lightblue;
+ }
+}
+    /* /* @media only screen and (max-width: 600px) {
+  .top_nav{background: red;} */
+
+@media only screen and (min-width: 600px) {
+  .top_nav {background: green;}
+}
+@media only screen and (min-width: 768px) {
+  .top_nav {background: blue;}
+} 
+@media only screen and (min-width: 992px) {
+  .top_nav {background: orange;}
+} 
+@media only screen and (min-width: 900px) {
+  .top_nav {background:#edecf1;
+}
+} */
+</style>
+<body>
+    <div class="main">
+        <div class="nav-bar">
+            <h1>GeekyAnts</h1>
+            <h3>Main</h3>
+            <ul>
+                 <li>
+                    <a href="#" class="d-flex">
+                        <div>
+                            <i class="fa fa-home" aria-hidden="true"></i> &nbspDashboard
+                        </div>
+                        <div class="arrow">
+                            <i class="fa fa-angle-right" aria-hidden="true"></i>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="d-flex">
+                        <div>
+                            <i class="fa fa-calendar-o" aria-hidden="true"></i>
+                            &nbspCalendar
+                        </div>
+                        <div class="arrow">
+                            <i class="fa fa-angle-right" aria-hidden="true"></i>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="d-flex">
+                        <div>
+                            <i class="fa fa-envelope" aria-hidden="true"></i> &nbspEmail
+                        </div>
+                        <div class="arrow">
+                            <i class="fa fa-angle-right" aria-hidden="true"></i>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="d-flex">
+                        <div>
+                            <i class="fa fa-cube" aria-hidden="true"></i> &nbspUI Elements
+                        </div>
+                        <div class="arrow">
+                            <i class="fa fa-angle-right" aria-hidden="true"></i>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="d-flex">
+                        <div>
+                            <i class="fa fa-file-powerpoint-o" aria-hidden="true"></i>
+                            &nbspForms
+                        </div>
+                        <div class="arrow">
+                            <i class="fa fa-angle-right" aria-hidden="true"></i>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="d-flex">
+                        <div>
+                            <i class="fa fa-pie-chart" aria-hidden="true"></i> &nbspCharts
+                        </div>
+                        <div class="arrow">
+                            <i class="fa fa-angle-right" aria-hidden="true"></i>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="d-flex">
+                        <div>
+                            <i class="fa fa-table" aria-hidden="true"></i> &nbspTables
+                        </div>
+                        <div class="arrow">
+                            <i class="fa fa-angle-right" aria-hidden="true"></i>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="d-flex">
+                        <div>
+                            <i class="fa fa-smile-o" aria-hidden="true"></i> &nbspIcons
+                        </div>
+                        <div class="arrow">
+                            <i class="fa fa-angle-right" aria-hidden="true"></i>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="d-flex">
+                        <div>
+                            <i class="fa fa-map-marker" aria-hidden="true"></i> &nbspMaps
+                        </div>
+                        <div class="arrow">
+                            <i class="fa fa-angle-right" aria-hidden="true"></i>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="right_side">
+            <div class="top_nav">
+                <a href="#"><i class="fa fa-bars" aria-hidden="true"
+                        style="padding:20px; color:black; font-size:24px"></i></a>
+                <select style="margin:20px; width:auto; height: 30px; font-size: 16px;">
+                    <option value="Create">Create</option>
+                    <option value="Search">Search</option>
+                    
+                </select>
+                <input type="text"
+                    style="border-radius: 40px; margin-left:auto; padding:20px; width:150px; height: 30px; font-size:20px;"
+                    placeholder="Search..." />
+                <select style="margin:20px; width:auto; height: 30px; font-size: 16px;">
+                    <option value="English">English</option>
+                    <option value="French">hindi</option>
+                    
+                </select>
+                <a href="#"><i class="fa fa-square-o" aria-hidden="true"
+                        style="font-size: 28px; padding:20px; color:black;"></i></a>
+                <a href="#"><i class="fa fa-bell" aria-hidden="true"
+                        style="font-size: 28px; padding:20px; color:black;"></i></a>
+                <a href="#">
+                    <img src="business logo.png" height="40px" width="50px" style="padding-top: 5px" ></img></a>
+
+            </div>
+            <div class="card_layout">
+                <div>
+                    <h1 class="dash" style="padding-right: 90px" >Dashboard</h1>
+                    <div style="font-size: 15px;">Welcome to GeekyAnts Dashboard</div>
+                </div>
+                <div style="margin-left: auto;">
+                    <button class="button-1">
+                        <i class="fa fa-cog" aria-hidden="true"></i>&nbsp&nbsp Settings
+                    </button>
+                </div>
+            </div>
+            <div class="d-flex">
+                <div class="cards">
+                    <div class="card-top">
+                        <div style="width: 60px;">
+                            <img src="icon1.png"></img>
+                        </div>
+                        <div>
+                            <span>
+                                <h4>&nbsp&nbspORDERS</h4>
+                            </span>
+                            <span>
+                                <h4>
+                                    1,685 <i class="fa fa-arrow-up  " style="color:#2aa39a"></i>
+                                </h4>
+                            </span>
+                        </div>
+                        <div style="margin-left: auto;">
+                            <div class="arrow-wrap">
+                                34%
+                            </div>
+                        </div>
+                    </div>
+                    <div class="d-flex">
+                        <div><span>Since last month </span></div>
+                        <div style="margin-left: auto;">
+                            <a href="#"><i class="fa fa-arrow-right fa-2x"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="cards">
+                    <div class="card-top">
+                        <div style="flex:1">
+                            <img src="icon2.png"></img>
+                        </div>
+                        <div style="flex:1">
+                            <span>
+                                <h4>&nbsp&nbspREVENUE</h4>
+                            </span>
+                            <span>
+                                <h4>
+                                    52345 <i class="fa fa-arrow-up  " style="color:#2aa39a"></i>
+                                </h4>
+                            </span>
+                        </div>
+                        <div style="flex:1;text-align:right;">
+                        </div>
+                        <div style="margin-left: auto;">
+                            <div class="arrow-wrap">
+                                -28%
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-bottom">
+                        <div><span>Since last month </span></div>
+                        <div style="margin-left: auto;">
+                            <a href="#" style="text-decoration: none; color:white;"><i
+                                    class="fa fa-arrow-right fa-2x"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="cards">
+                    <div class="card-top">
+                        <div style="flex:1">
+                            <img src="icon3.png"></img>
+                        </div>
+                        <div style="flex:1">
+                            <span>
+                                <h4>&nbsp&nbspAVERAGE &nbsp&nbspPRICE</h4>
+                            </span>
+                            <span>
+                                <h4>
+                                    15.8 <i class="fa fa-arrow-up  " style="color:#2aa39a"></i>
+                                </h4>
+                            </span>
+                        </div>
+                        <div style="flex:1;text-align:right;">
+                        </div>
+                        <div style="margin-left: auto;">
+                            <div class="arrow-wrap">
+                                00%
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-bottom">
+                        <div><span>Since last month </span></div>
+                        <div style="margin-left: auto;">
+                            <a href="#"><i class="fa fa-arrow-right fa-2x"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="cards">
+                    <div class="card-top">
+                        <div style="flex:1">
+                            <img src="icon4.png"></img>
+                        </div>
+                        <div style="flex:1">
+                            <span>
+                                <h4>&nbsp&nbspPRODUCT &nbsp&nbspSOLD</h4>
+                            </span>
+                            <span>
+                                <h4>
+                                    3456 <i class="fa fa-arrow-up  " style="color:#2aa39a"></i>
+                                </h4>
+                            </span>
+                        </div>
+
+                        <div style="flex:1;text-align:right;">
+                        </div>
+                        <div style="margin-left: auto;">
+                            <div class="arrow-wrap">
+                                +84%
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card-bottom">
+                        <div><span>Since last month </span></div>
+                        <div style="margin-left: auto;">
+                            <a href="#"><i class="fa fa-arrow-right fa-2x"></i></a>
+                        </div>
+                    </div>
+                </div>
+</div>
+        <div class="container-bottom" style="display: flex;">
+            <div class="table-part box">
+                <h2 style="padding-left: 25px">Latest Trasactions</h2>
+                <table>
+                    <tr>
+                        <th>(#)id</th>
+                        <th>Name</th>
+                        <th>Company</th>
+                        <th>Amount</th>
+                        <th>Date</th>
+                        <th>Status</th>
+                        <th></th>
+                    </tr>
+                    <tr>
+                        <td>#141455</td>
+                        <td>
+                            <div><img src="business logo.png" style="width:25px;height:20px;"></img>Smith</div>
+                        </td>
+                        <td>GeekyAnts</td>
+                        <td>$5000</td>
+                        <td>11/3/2019</td>
+                        <td><span class="button-2">Pending</span></td>
+                        <td><a href="#" class="button-1">Edit</a></td>
+                    </tr>
+                    <tr>
+                        <td>#145678</td>
+                        <td>
+                            <div><img src="business logo.png" style="width:25px;height:20px;"></img>Smith</div>
+                        </td>
+                        <td>GeekyAnts</td>
+                        <td>$7765</td>
+                        <td>19/3/2019</td>
+                        <td><span class="button-3">Delivered</span></td>
+                        <td><a href="#" class="button-1">Edit</a></td>
+                    </tr>
+                    <tr>
+                        <td>#141443</td>
+                        <td>
+                            <div><img src="image of business.png" style="width:25px;height:20px;"></img>Smith</div>
+                        </td>
+                        </td>
+                        <td>GeekyAnts</td>
+                        <td>$6544</td>
+                        <td>18/2/2019</td>
+                        <td><span class="button-2">Pending</span></td>
+                        <td><a href="#" class="button-1" >Edit</a></td>
+                    </tr>
+                    <tr>
+                        <td>#140000</td>
+                        <td>
+                            <div><img src="business logo.png" style="width:25px;height:20px;"></img>Smith</div>
+                        </td>
+                        </td>
+                        <td>GeekyAnts</td>
+                        <td>$5000</td>
+                        <td>29/4/2019</td>
+                        <td><span class="button-3">Delivered</span></td>
+                        <td><a href="#" class="button-1">Edit</a></td>
+                    </tr>
+                    <tr>
+                        <td>#143455</td>
+                        <td>
+                            <div><img src="image of business.png" style="width:25px;height:20px;"></img>Smith</div>
+                        </td>
+                        </td>
+                        <td>GeekyAnts</td>
+                        <td>$5000</td>
+                        <td>13/7/2019</td>
+                        <td><span class="button-4">Cancel</span></td>
+                        <td><a href="#" class="button-1">Edit</a></td>
+                    </tr>
+                    <tr>
+                        <td>#143476</td>
+                        <td>
+                            <div><img src="business logo.png" style="width:25px;height:20px;"></img>Smith</div>
+                        </td>
+                        </td>
+                        <td>GeekyAnts</td>
+                        <td>$5000</td>
+                        <td>13/7/2019</td>
+                        <td><span class="button-3">Delivered</span></td>
+                        <td><a href="#" class="button-1">Edit</a></td>
+                    </tr>
+                    <tr>
+                        <td>#143886</td>
+                        <td>
+                            <div><img src="image of business.png" style="width:25px;height:20px;"></img>Smith</div>
+                        </td>
+                        </td>
+                        <td>GeekyAnts</td>
+                        <td>$8765</td>
+                        <td>13/7/2019</td>
+                        <td><span class="button-2">Pending</span></td>
+                        <td><a href="#" class="button-1">Edit</a></td>
+                    </tr>
+                    <tr>
+                        <td>#143876</td>
+                        <td>
+                            <div><img src="business logo.png" style="width:25px;height:20px;"></img>Smith</div>
+                        </td>
+                        <td>GeekyAnts</td>
+                        <td>$7544</td>
+                        <td>13/9/2019</td>
+                        <td><span class="button-3">Delivered</span></td>
+                        <td><a href="#" class="button-1" >Edit</a></td>
+                    </tr>
+                    <tr>
+                        <td>#143056</td>
+                        <td>
+                            <div><img src="image of business.png" style="width:25px;height:20px;"></img>Smith</div>
+                        </td>
+                        <td>GeekyAnts</td>
+                        <td>$6543</td>
+                        <td>17/7/2019</td>
+                        <td><span class="button-2">Pending</span></td>
+                        <td><a href="#" class="button-1" >Edit</a></td>
+                    </tr>
+                    <tr>
+                        <td>#143065</td>
+                        <td>
+                            <div><img src="business logo.png" style="width:25px;height:20px;"></img>Smith</div>
+                        </td>
+                        <td>GeekyAnts</td>
+                        <td>$7654</td>
+                        <td>13/3/2019</td>
+                        <td><a href="#" class="button-2">Pending</a></td>
+                        <td><a href="#" class="button-1">Edit</a></td>
+                    </tr>
+                    <tr>
+                        <td>#143067</td>
+                        <td>
+                            <div><img src="image of business.png" style="width:25px;height:20px;"></img>Smith</div>
+                        </td>
+                        <td>GeekyAnts</td>
+                        <td>$0987</td>
+                        <td>13/5/2019</td>
+                        <td><span class="button-3">Delivered</span></td>
+                        <td><a href="#" class="button-1">Edit</a></td>
+                    </tr>
+                    <tr>
+                        <td>#143089</td>
+                        <td>
+                            <div><img src="business logo.png" style="width:25px;height:20px;"></img>Smith</div>
+                        </td>
+                        <td>GeekyAnts</td>
+                        <td>$5065</td>
+                        <td>12/7/2019</td>
+                        <td><span class="button-2">Pending</span></td>
+                        <td><a href="#" class="button-1">Edit</a></td>
+                    </tr>
+                    <tr>
+                        <td>#143065</td>
+                        <td>
+                            <div><img src="image of business.png" style="width:25px;height:20px;"></img>Smith</div>
+                        </td>
+                        <td>GeekyAnts</td>
+                        <td>$5076</td>
+                        <td>11/7/2019</td>
+                        <td><span class="button-2">Pending</span></td>
+                        <td><a href="#" class="button-1">Edit</a></td>
+                    </tr>
+                </table>
+            </div>
+            <div class="box" style="width: 300px;">
+                <!-- <div class="d-flex"> -->
+                <h3 style="color: black">Chats</h3>
+                    <div class="chat-box">
+                        <div class="sender">
+                            <img src="business logo.png" width="60px">
+                            <div class="sender-message">
+                                <h4>Jhon </h4>
+                                <span><p>how are you???</p></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="chat-box">
+                        <div class="receiver">
+                            <img src="image of business.png" width="60px height="70px">
+                            <div class="receiver-message">
+                                <h4>Smith</h4>
+                                <p>tell me about the meeting</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="chat-box">
+                        <div class="sender">
+                            <img src="business logo.png" width="60px">
+                            <div class="sender-message">
+                                <h4>Jhon </h4>
+                                <p>hello how are you? </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="chat-box">
+                        <div class="receiver">
+                            <img src="image of business.png" width="60px">
+                            <div class="receiver-message">
+                                <h4>Smith</h4>
+                                <p>i am fine and tell me about the meeting</p>
+                            </div>
+                        </div>
+                    </div>
+                      <input type="text" placeholder="Enter Your Text Here"><br>
+                    <a href="#" class="button-1">Send</a>
+                    </div> 
+                    
+            </div>
+        </div>
+    </div>
+</body>
+</html>
